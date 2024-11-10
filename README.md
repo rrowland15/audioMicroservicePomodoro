@@ -114,7 +114,8 @@ while received== None:
 ## UML Diagram
 The UML diagram below shows the basic interactions between the main program and the microservice. 
 
-![image](https://github.com/user-attachments/assets/fa666a63-ec8e-43fd-a670-28a18a836c84)
+![image](https://github.com/user-attachments/assets/37159030-0200-4c31-a286-1cba6529a1b4)
+
 
 
 ## Communication Contract:
