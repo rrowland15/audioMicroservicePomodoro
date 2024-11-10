@@ -65,11 +65,11 @@ socket.send_string(myMessage)
 ## Communication Contract:
 Write a mitigation plan by answering these questions:
   1.	For which teammate did you implement “Microservice A”?
-      -  Guillermo Morales
+        -  Guillermo Morales
   3.	What is the current status of the microservice? Hopefully, it’s done!
-      -  The microservice is complete.
+        -  The microservice is complete.
   5.	If the microservice isn’t done, which parts aren’t done and when will they be done?
-      -  Not applicable, microservice is complete.
+        -  Not applicable, microservice is complete.
   7.	How is your teammate going to access your microservice? Should they get your code from GitHub (if so, provide a link to your public or private repo)? Should they run your code locally? Is your microservice hosted somewhere? Etc.
       -  The microservice is located at the GitHub link below as microservice.py https://github.com/rrowland15/audioMicroservicePomodoro 
       -  Additionally, example calls to the microservice are included as testprogram.py and a script to build a dictionary of the .CAF files that are greater than 30 seconds is included as scandirect.py. 
