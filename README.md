@@ -90,7 +90,7 @@ socket.send_string(myMessage)
 
 ### How to receive a song
 
-The song will automatically be saved to a local directory (which will automatically be created for the user) called tempaudiofolder. This is where a file called temp.wav will be stored and overwritten when additional song requests occur. 
+The song will automatically be saved to a local directory (which will automatically be created for the user) called tempaudiofolder. This is where a file called temp.wav will be stored and overwritten when additional song requests occur. However, if you are looking for confirmation that the file is converted and saved in the location the microservice will return "True" if the transaction occured and "False" otherwise. 
 
 - Example of User receiving confirmation that file has been converted and saved to tempaudiofolder directory
 ```
