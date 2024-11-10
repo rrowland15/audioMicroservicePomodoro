@@ -121,3 +121,34 @@ Write a mitigation plan by answering these questions:
         -  I understand that things come up but please do your best to contact me at least 48 hours before the assignment due date. 
   7.	Is there anything else your teammate needs to know? Anything you’re worried about? Any assumptions you’re making? Any other mitigations / backup plans you want to mention or want to discuss with your teammate?
         -  We have already verified your main program is able to play the files converted to the .WAV format so I don’t expect there should be any issues. It appears that the path to the iLife Sound Effects was common on both our machines. If they aren’t in a common location or if there are files missing on your computer that aren’t included in your iLife Effects some calls to the microservice may return “False”. If this is the case, we can run fix the path to the directory or in the case where files are missing we can run the script I used to scan the directory and pull the songs of length greater than 30 seconds to rebuild the dictionary (I have included this file in the repo as scandirect.py)
+    
+## Additional Information:
+
+file_dict={'Textures': ['Super Stager.caf'],
+     'Transportation': ['Sail Boat.caf', 'Ship in Heavy Sea.caf', 'Airplane Cabin.caf'],
+     'Stingers': ['Synthetic Design 02.caf', 'Space Log .caf'],
+     'Jingles': ['Starlight Lounge.caf', 'Park Bench.caf', 'Offroad Long.caf', 'Half Dome Medium.caf',
+                 'Stepping Out Medium.caf', 'Galleria Long.caf', 'Jaracanda.caf', 'Catwalk Long.caf',
+                 'Collins Avenue Long.caf', 'Headspin Long.caf', 'Half Moon Bay Long.caf', 'Greasy Wheels Long.caf',
+                 'Three Pointer Long.caf', 'Tour Bus Long.caf', 'Dogma.caf', 'Sanskrit.caf', 'Progressive House.caf',
+                 'Spacey Club.caf', 'Vino.caf', 'First Snowfall.caf', 'Daydream.caf', 'Campfire.caf', 'Shetland.caf',
+                 'Peach Cobbler.caf', 'Newborn.caf', 'Chaise Lounge Long.caf', 'Highlight Reel Long.caf', 'Travel.caf',
+                 'Vista.caf', 'Chelsea Loft Long.caf', 'Wild Card Long.caf', 'Torn Jeans Long.caf', 'Tigris.caf',
+                 '44th Street Long.caf', 'Island Long.caf', 'Tennessee Twister Long.caf', 'East Ender Long.caf',
+                 'Electric Rodeo Long.caf', 'Pendulum.caf', 'Curtain Call Long.caf', 'Off Broadway.caf',
+                 'Dolce Vita.caf', 'Acoustic Sunrise.caf', 'Gelato.caf', 'Elysium Long.caf', 'Motocross.caf',
+                 'Watercolor Long.caf', 'Yearbook Long.caf', 'Medal Ceremony Long.caf', 'Carousel.caf', 'Havana.caf',
+                 'Undercover.caf', 'Dustbowl.caf', 'Bossa Lounger Long.caf', 'Dewdrops.caf', 'Swing City Long.caf',
+                 'Jazzy Downtempo.caf', 'Lazy Day.caf', 'Celestial Body Long.caf', 'Stepping Out Long.caf',
+                 'Glide Long.caf', 'Kickflip Long.caf', 'Buddy.caf', 'Piano Ballad.caf', 'Broadcast News Long.caf',
+                 'West Precinct Long.caf', 'Indulge.caf', 'Time Lapse.caf', 'Lotus.caf', 'Roller Derby.caf',
+                 'Fireside.caf', 'Gleaming Long.caf', 'Breakbeat Long.caf', 'Pastel Slide Long.caf', 'Shogun.caf',
+                 'Midnite Dialog Long.caf', 'River Walk.caf', 'Barbeque Blues Long.caf', 'Fifth Avenue Stroll.caf',
+                 'Two Seater Long.caf', 'Half Dome Long.caf'],
+     'People': ['Lobby Conversation.caf', 'Stadium Crowd Chant.caf', 'Cheering Crowd Studio.caf', 'Busy Station.caf',
+                'Swimming.caf'],
+     'Ambience': ['Ocean Surf.caf', 'Rain Heavy Thunder.caf', 'Forest.caf', 'Cave Water Drops.caf',
+                  'Forest Evening.caf', 'Concrete Jungle.caf', 'Traffic.caf', 'Jungle.caf'],
+     'Booms': ['Volcano Erupting.caf'],
+     'Foley': ['Scuba Breathing.caf', 'Rescue Helicopter.caf', 'Clock Wind Up.caf', 'Grandfather Clock Strike.caf',
+               'Antique Clock Strike.caf', 'Traffic Helicopter.caf']}
