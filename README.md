@@ -4,23 +4,30 @@
 
 **microservice.py**
 
-This microservice (microservice.py) accepts requests via a ZeroMQ socket for a selected song, a random song or a random category within a theme from the iLife Sound Effects    library. It then converts the respective file from a Core Audio Format (.caf) into a Waveform Audio Format (.wav) compatible with most programatic audio players. The converted file is then saved within your local project directory in a folder called tempaudiofolder where it can be played. 
+This microservice (microservice.py) accepts requests via a ZeroMQ socket for a selected song, a random song or a random category within a theme from the iLife Sound Effects library. It then converts the respective file from a Core Audio Format (.caf) into a Waveform Audio Format (.wav) compatible with most programatic audio players. The converted file is then saved within your local project directory in a folder called tempaudiofolder where it can be played. 
   
 This file contains a predefined dictionary (file_dict) of .caf files selected from the iLife Sound Effects library that are greater than 30 seconds long.
 
 Functions:
+  Arguments for these selected song and category parameters are included at the bottom of this README as a part of additional information.
 
     convert_caf_to_wav(category, filename):
        convert caf to wav format and save file to tempaudiofolder (create directory if needed)
 
     def get_random():
-       Returns a random song in a random category
+       Returns a random song in a random category.
 
     def get_random_from_category(category):
-       Returns a random song in a specified category
+       Returns a random song in a specified category.
 
     def get_file(selected_song):
-       Returns a specified song
+       Returns a specified song.
+
+    def read_request():
+       Waits for the main program to send a request for a song and then processes the request to the appropriate functions listed above.
+
+    def return_status():
+       Returns "True" to the main program if the file was converted and saved to the local directory folder (tempaudiofolder) and "False" otherwise.
 
     
 **testprogram.py**
@@ -107,7 +114,7 @@ while received== None:
 ## UML Diagram
 The UML diagram below shows the basic interactions between the main program and the microservice. 
 
-<img width="1029" alt="image" src="https://github.com/user-attachments/assets/5d9ed694-6e16-4e6f-b8df-344afa529eba">
+![image](https://github.com/user-attachments/assets/fa666a63-ec8e-43fd-a670-28a18a836c84)
 
 
 ## Communication Contract:
