@@ -65,20 +65,20 @@ socket.send_string(myMessage)
 ## Communication Contract:
 Write a mitigation plan by answering these questions:
   1.	For which teammate did you implement “Microservice A”?
-      - Guillermo Morales
+      -  Guillermo Morales
   2.	What is the current status of the microservice? Hopefully, it’s done!
-      - The microservice is complete.
+      -  The microservice is complete.
   3.	If the microservice isn’t done, which parts aren’t done and when will they be done?
-      - Not applicable, microservice is complete.
+      -  Not applicable, microservice is complete.
   4.	How is your teammate going to access your microservice? Should they get your code from GitHub (if so, provide a link to your public or private repo)? Should they run your code locally? Is your microservice hosted somewhere? Etc.
-      - The microservice is located at the GitHub link below as microservice.py https://github.com/rrowland15/audioMicroservicePomodoro 
-      - Additionally, example calls to the microservice are included as testprogram.py and a script to build a dictionary of the .CAF files that are greater than 30 seconds is included as scandirect.py. 
+      -  The microservice is located at the GitHub link below as microservice.py https://github.com/rrowland15/audioMicroservicePomodoro 
+      -  Additionally, example calls to the microservice are included as testprogram.py and a script to build a dictionary of the .CAF files that are greater than 30 seconds is included as scandirect.py. 
   5.	If your teammate cannot access/call YOUR microservice, what should they do? Can you be available to help them? What’s your availability?
-      - Message over discord and we will set up a time to discuss. My schedule is flexible and we are both on PST so it shouldn’t be a problem to find a time that works for the two of us. Should be able to find a time the day you contact me or the day after. 
+      -  Message over discord and we will set up a time to discuss. My schedule is flexible and we are both on PST so it shouldn’t be a problem to find a time that works for the two of us. Should be able to find a time the day you contact me or the day after. 
   6.	If your teammate cannot access/call your microservice, by when do they need to tell you?
-      - I understand that things come up but please do your best to contact me at least 48 hours before the assignment due date. 
+      -  I understand that things come up but please do your best to contact me at least 48 hours before the assignment due date. 
   7.	Is there anything else your teammate needs to know? Anything you’re worried about? Any assumptions you’re making? Any other mitigations / backup plans you want to mention or want to discuss with your teammate?
-      - We have already verified your main program is able to play the files converted to the .WAV format so I don’t expect there should be any issues. It appears that the path to the iLife Sound Effects was common on both our machines. If they aren’t in a common location or if there are files missing on your computer that aren’t included in your iLife Effects some calls to the microservice may return “False”. If this is the case, we can run fix the path to the directory or in the case where files are missing we can run the script I used to scan the directory and pull the songs of length greater than 30 seconds to rebuild the dictionary (I have included this file in the repo as scandirect.py)
+      -  We have already verified your main program is able to play the files converted to the .WAV format so I don’t expect there should be any issues. It appears that the path to the iLife Sound Effects was common on both our machines. If they aren’t in a common location or if there are files missing on your computer that aren’t included in your iLife Effects some calls to the microservice may return “False”. If this is the case, we can run fix the path to the directory or in the case where files are missing we can run the script I used to scan the directory and pull the songs of length greater than 30 seconds to rebuild the dictionary (I have included this file in the repo as scandirect.py)
 
   100. First list item
   - First nested list item
