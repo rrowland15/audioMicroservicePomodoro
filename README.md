@@ -80,5 +80,9 @@ Write a mitigation plan by answering these questions:
   7.	Is there anything else your teammate needs to know? Anything you’re worried about? Any assumptions you’re making? Any other mitigations / backup plans you want to mention or want to discuss with your teammate?
       - We have already verified your main program is able to play the files converted to the .WAV format so I don’t expect there should be any issues. It appears that the path to the iLife Sound Effects was common on both our machines. If they aren’t in a common location or if there are files missing on your computer that aren’t included in your iLife Effects some calls to the microservice may return “False”. If this is the case, we can run fix the path to the directory or in the case where files are missing we can run the script I used to scan the directory and pull the songs of length greater than 30 seconds to rebuild the dictionary (I have included this file in the repo as scandirect.py)
 
+     100. First list item
+     - First nested list item
+       - Second nested list item
+
 
 
