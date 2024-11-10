@@ -104,6 +104,10 @@ while received== None:
     print("file upload received in tempaudiofolder")
 ```
 
+## UML Diagram
+<img width="1029" alt="image" src="https://github.com/user-attachments/assets/5d9ed694-6e16-4e6f-b8df-344afa529eba">
+
+
 ## Communication Contract:
 Write a mitigation plan by answering these questions:
   1.	For which teammate did you implement “Microservice A”?
@@ -121,7 +125,7 @@ Write a mitigation plan by answering these questions:
         -  I understand that things come up but please do your best to contact me at least 48 hours before the assignment due date. 
   7.	Is there anything else your teammate needs to know? Anything you’re worried about? Any assumptions you’re making? Any other mitigations / backup plans you want to mention or want to discuss with your teammate?
         -  We have already verified your main program is able to play the files converted to the .WAV format so I don’t expect there should be any issues. It appears that the path to the iLife Sound Effects was common on both our machines. If they aren’t in a common location or if there are files missing on your computer that aren’t included in your iLife Effects some calls to the microservice may return “False”. If this is the case, we can run fix the path to the directory or in the case where files are missing we can run the script I used to scan the directory and pull the songs of length greater than 30 seconds to rebuild the dictionary (I have included this file in the repo as scandirect.py)
-    
+
 ## Additional Information:
 Below I have included information about the song categories/themes that the user will be able to choose among as well as the corresponding song .caf files that a user would be able to choose from in the event that they wanted a specific song. These will have to be preprescibed for the user. *Note that the .caf files shown are those that are greater than 30 seconds in length*
 
