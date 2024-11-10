@@ -85,6 +85,18 @@ myMessage = (userRequestedSong or userRequestedTheme) or "random"
 socket.send_string(myMessage)
 ```
 
+- Example of User receiving confirmation that file has been converted and saved to tempaudiofolder directory
+```
+received = None
+
+while received== None:
+    context = zmq.Context()
+    socket = context.socket(zmq.REP)
+    socket.bind("tcp://127.0.0.1:5557")             # tcp socket 2
+    received = socket.recv().decode('utf-8')
+    print("file upload received in tempaudiofolder")
+```
+
 ## Communication Contract:
 Write a mitigation plan by answering these questions:
   1.	For which teammate did you implement “Microservice A”?
