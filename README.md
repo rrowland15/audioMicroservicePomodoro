@@ -2,7 +2,7 @@
 
 ## Description: 
 
-**microservice.py**
+<ins>**microservice.py**</ins>
 
 This microservice (microservice.py) accepts requests via a ZeroMQ socket for a selected song, a random song or a random category within a theme from the iLife Sound Effects library. It then converts the respective file from a Core Audio Format (.caf) into a Waveform Audio Format (.wav) compatible with most programatic audio players. The converted file is then saved within your local project directory in a folder called tempaudiofolder where it can be played. 
   
@@ -30,12 +30,10 @@ This file contains a predefined dictionary (file_dict) of .caf files selected fr
        Returns "True" to the main program if the file was converted and saved to the local directory folder (tempaudiofolder) and "False" otherwise.
 
     
-**testprogram.py**
-
+<ins>*testprogram.py**</ins>
 Contains three example calls to the microservice, the basic setup for the two sockets needed to send and receive the feedback to and from the microservice respectively. 
 
-**scandirect.py**
-
+<ins>*scandirect.py**</ins>
 Used to regenerate a dictionary of songs from the iLife Sound Effects library of the desired length. An existing dictionary of songs >30 seconds exists in the microservice.py file. This file is only needed if it is desired to change the songs that are available. 
 
 ## Technologies:
