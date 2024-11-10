@@ -10,17 +10,17 @@ This file contains a predefined dictionary (file_dict) of .caf files selected fr
 
 Functions:
 
-  convert_caf_to_wav(category, filename):
-     convert caf to wav format and save file to tempaudiofolder (create directory if needed)
+    convert_caf_to_wav(category, filename):
+       convert caf to wav format and save file to tempaudiofolder (create directory if needed)
 
-  def get_random():
-     Returns a random song in a random category
+    def get_random():
+       Returns a random song in a random category
 
-  def get_random_from_category(category):
-     Returns a random song in a specified category
+    def get_random_from_category(category):
+       Returns a random song in a specified category
 
-  def get_file(selected_song):
-    Returns a specified song
+    def get_file(selected_song):
+       Returns a specified song
 
     
 **testprogram.py**
