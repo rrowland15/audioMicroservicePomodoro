@@ -9,21 +9,19 @@ This microservice (microservice.py) accepts requests via a ZeroMQ socket for a s
 This file contains a predefined dictionary (file_dict) of .caf files selected from the iLife Sound Effects library that are greater than 30 seconds long.
 
 Functions:
-```convert_caf_to_wav(category, filename):
-    '''convert caf to wav format and save file to tempaudiofolder (create directory if needed)'''
-```
 
-```def get_random():
-    ''' Returns a random song in a random category'''
-```
+  convert_caf_to_wav(category, filename):
+     convert caf to wav format and save file to tempaudiofolder (create directory if needed)
 
-```def get_random_from_category(category):
-    ''' Returns a random song in a specified category'''
-```
+  def get_random():
+     Returns a random song in a random category
 
-```def get_file(selected_song):
-    ''' Returns a specified song'''
-```
+  def get_random_from_category(category):
+     Returns a random song in a specified category
+
+  def get_file(selected_song):
+    Returns a specified song
+
     
 **testprogram.py**
   Contains three example calls to the microservice, the basic setup for the two sockets needed to send and receive the feedback to and from the microservice respectively. 
