@@ -8,7 +8,7 @@ This microservice (microservice.py) accepts requests via a ZeroMQ socket for a s
   
 This file contains a predefined dictionary (file_dict) of .caf files selected from the iLife Sound Effects library that are greater than 30 seconds long.
 
-Functions:
+**Functions:**
   Arguments for these selected song and category parameters are included at the bottom of this README as a part of additional information.
 
     convert_caf_to_wav(category, filename):
