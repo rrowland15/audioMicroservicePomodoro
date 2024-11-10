@@ -105,6 +105,8 @@ while received== None:
 ```
 
 ## UML Diagram
+The UML diagram below shows the basic interactions between the main program and the microservice. 
+
 <img width="1029" alt="image" src="https://github.com/user-attachments/assets/5d9ed694-6e16-4e6f-b8df-344afa529eba">
 
 
